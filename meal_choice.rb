@@ -13,8 +13,8 @@ def lunch(food="grilled cheese")
   puts "I had #{food} for lunch."
 end
 
-def dinner(dinner="salmon")
-  puts "#{dinner} is best eaten for dinner"
+def dinner(food="salmon")
+  puts "#{food} is best eaten for dinner"
 end
 
 puts breakfast("pancakes")
