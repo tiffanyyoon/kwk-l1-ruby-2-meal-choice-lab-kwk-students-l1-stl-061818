@@ -17,16 +17,18 @@ def dinner (dinner = "salmon")
   puts "#{dinner} is best eaten for dinner"
 end
 
-breakfast
-lunch
-dinner
+puts breakfast("scrambled eggs")
+puts lunch("sandwich")
+puts dinner("pasta")
 
 # Call the methods with puts and your own arguments here. Like this:
 puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-
+puts breakfast
+puts lunch
+puts dinner
 
 # Call your methods without any arguments here
 puts snacks
